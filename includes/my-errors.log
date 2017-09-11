@@ -1,0 +1,16 @@
+[05-Sep-2017 09:26:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/myBasicTemplate/includes/operations.php on line 19
+[05-Sep-2017 10:10:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'other.form_register' doesn't exist in /opt/lampp/htdocs/myBasicTemplate/includes/DB.php:65
+Stack trace:
+#0 /opt/lampp/htdocs/myBasicTemplate/includes/DB.php(65): PDOStatement->execute()
+#1 /opt/lampp/htdocs/myBasicTemplate/includes/operations.php(32): DB->getRows('form_register', Array)
+#2 {main}
+  thrown in /opt/lampp/htdocs/myBasicTemplate/includes/DB.php on line 65
+[05-Sep-2017 10:10:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'other.form_register' doesn't exist in /opt/lampp/htdocs/myBasicTemplate/includes/DB.php:65
+Stack trace:
+#0 /opt/lampp/htdocs/myBasicTemplate/includes/DB.php(65): PDOStatement->execute()
+#1 /opt/lampp/htdocs/myBasicTemplate/includes/operations.php(32): DB->getRows('form_register', Array)
+#2 {main}
+  thrown in /opt/lampp/htdocs/myBasicTemplate/includes/DB.php on line 65
+[05-Sep-2017 10:22:17 Europe/Berlin] PHP Fatal error:  Maximum execution time of 600 seconds exceeded in /opt/lampp/htdocs/myBasicTemplate/includes/operations.php on line 26
+[05-Sep-2017 10:45:03 Europe/Berlin] PHP Fatal error:  Maximum execution time of 600 seconds exceeded in /opt/lampp/htdocs/myBasicTemplate/includes/operations.php on line 27
+[05-Sep-2017 10:51:05 Europe/Berlin] PHP Fatal error:  Maximum execution time of 600 seconds exceeded in /opt/lampp/htdocs/myBasicTemplate/includes/operations.php on line 29
